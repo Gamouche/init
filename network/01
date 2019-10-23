@@ -1,5 +1,1 @@
-
-
-ip address show | grep '^[[:digit:]]' | cut -d ' ' -f 2 | tr -d ':'
-
-
+ip link show | grep '^[a-z]' | cut -d ':' -f 1

@@ -1,0 +1,6 @@
+ip address show en0 | grep brd | cut -d ' ' -f 4
+
+ping -t 5 10.12.255.255 > /dev/null && arp -a | grep -v 'permanent' | grep --extended-regexp --only-matching '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+'
+
+
+# les deux dernieres adresses cest quoi ouesh
