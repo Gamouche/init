@@ -1,0 +1,2 @@
+dpkg-query -l
+# ou apt list --installed

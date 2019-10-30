@@ -1,0 +1,4 @@
+# en session graphique : via l'interface de connexion aux sessions graphiques (interface automatiquement accessible apres un boot du systeme par exemple, ou apres s'etre delog/change d'utilisateur) ;
+
+# en ssh : user@ip 
+
