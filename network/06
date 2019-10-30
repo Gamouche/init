@@ -1,3 +1,2 @@
-# le chemin complet du fichier dans lequel est ecrit l'adresse ip du serveur DNS que j'utilise ici, est "/etc/resolv.conf"
-cat /etc/resolv.conf
+# /etc/resolv.conf est un lien symbolique place au meme endroit dans les systemes unix, pointant sur le "vrai fichier" qui lui peut changer d'emplacement selon les OS.
 
