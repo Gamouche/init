@@ -1,0 +1,34 @@
+
+POINT 3 : 
+https://technique.arscenic.org/reseau/article/attribuer-une-ip-fixe-a-un-serveur
+https://fr.wikipedia.org/wiki/Sous-r%C3%A9seau
+DU COUP UNE IP EN /30 CE SERA 255.255.255.252 
+
+
+POINT 4 :
+https://kb.iweb.com/hc/fr/articles/230241868-Comment-changer-le-port-de-connexion-SSH-
+https://doc.fedora-fr.org/wiki/SSH_:_Authentification_par_cl%C3%A9
+
+empecher root de se co en ssh : 
+https://mediatemple.net/community/products/dv/204643810/how-do-i-disable-ssh-login-for-the-root-user
+https://www.tecmint.com/disable-ssh-root-login-in-linux/
+
+
+POINT 5 :
+jai rien compris a cette consigne issou
+
+
+POINT 6 : 
+REGARDER CEST QUOI "FAIL2BAN" et "PORTSENTRY"
+https://javapipe.com/blog/iptables-ddos-protection/
+
+POINT 7 :
+
+
+
+
+
+
+
+
+
