@@ -1,1 +1,1 @@
-ip link show p2p0 | grep 'ether' | cut -d ' ' -f 2
+ip link show en1 | grep 'ether' | cut -d ' ' -f 2
