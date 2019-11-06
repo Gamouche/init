@@ -1,1 +1,2 @@
-getent passwd gamouche | cut -d ':' -f 1
+#!/bin/zsh
+UID_MIN_VAR=$(cat /etc/login.defs | grep  '^UID_MIN' | awk '{print $2}') ;  UID_MAX_VAR=$(cat /etc/login.defs | grep '^UID_MAX' | awk '{print $2}') ; getent passwd {$UID_MIN_VAR..$UID_MAX_VAR} ; exit 0
