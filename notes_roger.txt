@@ -57,6 +57,31 @@ Unblock machine :
 
 
 
+
+
+
+
+
+[portscan]
+enabled  = true
+filter   = portscan
+logpath  = /var/log/syslog
+bantime = 1m
+findtime = 1m
+maxretry = 1
+
+
+
+
+
+
+
+
+
+
+
+
+
 echo "0 4 * * 1		(apt-get update && apt-get upgrade -y) >> /var/log/update_script.log
 @reboot			(apt-get update && apt-get upgrade -y) >> /var/log/update_script.log
 0 0 * * *		(sh /cronwatch.sh)
